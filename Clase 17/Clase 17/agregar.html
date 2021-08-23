@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Configuración General de la Página -->
+        <meta charset="utf-8">
+        <title>DC-Tu Super!</title>
+        <link href="css/agregar.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;300;400&family=Karla:wght@400;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header - Descuento - DCommerce - barraNav -->
+        <header>
+            <h4>20% de descuento en todos los productos!</h4>
+            <article class="DCommerce">
+                <a href="index.html"><img src="img/ecommerce.png"></a>
+                <h1><a href="index.html">DCommerce</a></h1>
+            </article>
+            <nav class="barraNav">
+                <ul>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="registro.html">Registrarme</a></li>
+                    <li><a href="login.html">Ingresar</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Añadir Héroe -->
+        <main>
+            <form action="add" method="POST">
+                <fieldset>
+                    <legend class="titulo">Añadí tu super!</legend>
+                    <p class="subtitulo">Agregá tu personaje favorito completando las opciones.</p>
+                    <section class="caja uno">
+                        <p class="atributos">
+                            <label for="nombre">*Nombre</label>
+                            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" tabindex="1" required class="ph" placeholder="Nombre *campo obligatorio">
+                        </p>
+                        <p class="atributos">
+                            <label for="especie" id="especie">*Especie</label>
+                            <select name="especie" id="especie" tabindex="2" required class="ph">
+                                <option selected disabled>Especie *obligatorio</option>
+                                <option value="unknown">Unknown</option>
+                                <option value="extraterrestre">Extraterrestre</option>
+                                <option value="metahumano">Metahumano</option>
+                                <option value="divinidad">Divinidad</option>
+                                <option value="humano">Humano</option>
+                                <option value="cyborg">Cyborg</option>
+                            </select>
+                        </p>
+                    </section>
+                    <section class="caja dos">
+                        <p class="atributos">
+                            <label for="fecha">Fecha</label>
+                            <input type="date" name="fecha" id="fecha" value="1900-01-02" min="1800-01-01" max="2022-12-31" tabindex="3" class="ph">
+                        </p>
+                        <p class="atributos">
+                            <label for="foto">Agregar Foto</label>
+                            <input type="file" id="foto" name="foto" accept="image/png, image/jpeg" multiple placeholder="Seleccionar archivo" tabindex="4" class="file">
+                        </p>
+                    </section>
+                    <section class="caja tres">
+                        <textarea name="descripcion" id="descripcion" tabindex="5">Descripción</textarea>
+                        <article>
+                            <article class="atributos">
+                                <legend>Poderes</legend>
+                                <P class="opciones">
+                                    <input type="checkbox" name="poderes" id="poderes" value="Volar" tabindex="6"><label for="poderes" id="poderes">Volar</label>
+                                </P>
+                                <p class="opciones">
+                                <input type="checkbox" name="poderes" id="poderes" value="SuperInteligencia" tabindex="7"><label for="poderes" id="poderes">SuperInteligencia</label>
+                                </p>
+                                <p class="opciones">
+                                <input type="checkbox" name="poderes" id="poderes" value="Vista de rayo láser" tabindex="8"><label for="poderes" id="poderes">Vista de rayo láser</label>
+                                </p>
+                                <p class="opciones">
+                                <input type="checkbox" name="poderes" id="poderes" value="Billetera gorda" tabindex="9"><label for="poderes" id="poderes">Billetera gorda</label>
+                                </p>
+                            </article>
+                            <hr/>
+                            <article class="atributos">
+                                <legend>Tipo de personaje</legend>
+                                <p class="opciones">
+                                    <input type="radio" name="personaje" id="personaje" value="Héroe / Heroina" tabindex="10"><label for="personaje">Héroe / Heroina</label>
+                                </p>
+                                <p class="opciones">
+                                    <input type="radio" name="personaje" id="personaje" value="Villano / Villana" tabindex="11"><label for="personaje">Villano / Villana</label>
+                                </p>
+                            </article>
+                        </article>
+                    </section>
+                    <button type="submit" tabindex="12">Añadir</button>
+                </fieldset>
+            </form>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <h6>Todos los derechos reservados a FRONT END 1</h6>
+        </footer>
+    </body>
+</html>

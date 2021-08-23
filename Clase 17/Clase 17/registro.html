@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Configuración General de la Página -->
+        <meta charset="utf-8">
+        <title>DC-Registro</title>
+        <link href="css/style-registro.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header - Descuento - DCommerce -->
+        <header>
+            <h4>20% de descuento en todos los productos!</h4>
+            <article class="DCommerce">
+                <a href="index.html"><img src="img/ecommerce.png"></a>
+                <h1><a href="index.html">DCommerce</a></h1>
+            </article>
+        </header>
+        <!-- Registro -->
+        <form action="join" method="POST">
+            <fieldset>
+                <legend>Registro</legend>
+                <input type="text" name="Nombre" id="Nombre" placeholder="Nombre y Apellido" tabindex="1" required class="campos">
+                <input type="email" name="Usuario" id="Usuario" placeholder="Correo Electrónico" tabindex="2" required class="campos">
+                <input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña" pattern="[a-z 1-9]{6,12}" tabindex="3" required class="campos">
+                <select name="pais" placeholder="País"class="campos">
+                    <option selected disabled>País</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="brasil">Brasil</option>
+                </select>
+                <p class="botones">
+                    <button id="reset">Resetear</button>
+                    <button id="send">Entrar</button>
+                </p>
+                <p class="login">¿Ya tenés una cuenta?<a href="login.html" target="_blank">Ingresá</a></p>
+            </fieldset>
+        </form>
+        <!-- Footer -->
+        <footer>
+            <h6>Todos los derechos reservados a FRONT END 1</h6>
+        </footer>
+    </body>
+</html>

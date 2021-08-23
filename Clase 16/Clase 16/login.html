@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Configuración General de la Página -->
+        <meta charset="utf-8">
+        <title>DC-Login</title>
+        <link href="css/style-login.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header - Descuento - DCommerce -->
+        <header>
+            <h4>20% de descuento en todos los productos!</h4>
+            <article class="DCommerce">
+                <a href="index.html"><img src="img/ecommerce.png"></a>
+                <h1><a href="index.html">DCommerce</a></h1>
+            </article>
+        </header>
+        <!-- Login -->
+        <form action="login" method="POST">
+            <fieldset>
+                <legend>Login</legend>
+                <input type="email" name="Usuario" id="Usuario" placeholder="Usuario" tabindex="1" required>
+                <input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña" pattern="[a-z]{6,12}" tabindex="2" required>
+                <button>Entrar</button>
+                <p class="join"><a href="registro.html" target="_blank">¿No tenés una cuenta?</a> Registrarme</p>
+            </fieldset>
+        </form>
+        <!-- Footer -->
+        <footer>
+            <h6>Todos los derechos reservados a FRONT END 1</h6>
+        </footer>
+    </body>
+</html>

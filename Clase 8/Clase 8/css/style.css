@@ -1,0 +1,47 @@
+body{
+    background: #000;
+    color: #fff
+  }
+  
+  .img {
+    background: #e6e6e6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .title {
+    background: #FDE311;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 84.69%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .subtitle {
+    background: #FDE311;
+  
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 84.69%;
+  
+    color: #000;
+  }
+  
+  #footer { text-align: center;
+    background: #005677;
+  }
+  
+  #footer span {
+    color: #ffffff;
+  }
+  
+  #footer span a {
+    color: #ffffff;
+  }
+ 

@@ -1,0 +1,46 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-text{
+    color:white
+}
+
+header div{
+    background-color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-text{
+    color: white;
+    background-color:#222222
+}
+
+.footer-div{
+    background-color: #3C2313;
+}
+
+.footer-primary-text{
+    color: #FFFFFF;
+}
+
+.footer-secondary-text{
+    color: #8A8787;
+}
+
+.footer-logo{
+    background: #8A8787;
+    border-radius: 29.5px;
+    color: #FFFFFF;
+}
+
+.main-text{
+    color: #F0A83E;
+}
+
+.nav-color{
+    background-color: #F0A83E;
+}

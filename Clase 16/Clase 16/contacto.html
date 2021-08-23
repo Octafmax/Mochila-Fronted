@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Configuración General de la Página -->
+        <meta charset="utf-8">
+        <title>DContacto</title>
+        <link href="css/style-contacto.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header - Descuento - DCommerce -->
+        <header>
+            <h4>20% de descuento en todos los productos!</h4>
+            <article class="DCommerce">
+                <a href="index.html"><img src="img/ecommerce.png"></a>
+                <h1><a href="index.html">DCommerce</a></h1>
+            </article>
+        </header>
+        <!-- Contacto -->
+        <form action="contact" method="POST">
+            <fieldset>
+                <legend>Contacto</legend>
+                <input type="text" name="Nombre" id="Nombre" placeholder="Nombre y Apellido" tabindex="1" required class="campos">
+                <input type="email" name="email" id="email" placeholder="Correo Electrónico" tabindex="2" required class="campos">
+                <textarea name="contacto" id="contacto"class="campos" translate="3"></textarea>
+                <p class="botones">
+                    <button id="reset">Resetear</button>
+                    <button id="send">Entrar</button>
+                </p>
+            </fieldset>
+        </form>
+        <!-- Footer -->
+        <footer>
+            <h6>Todos los derechos reservados a FRONT END 1</h6>
+        </footer>
+    </body>
+</html>

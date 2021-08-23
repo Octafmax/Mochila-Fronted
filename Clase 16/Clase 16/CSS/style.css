@@ -1,0 +1,156 @@
+/* Configuración General de Estilos */
+*{box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;}
+html{height: 100%;
+    width: 100%;
+}
+/* Header - Descuento - DCommerce - barraNav */
+/* Descuento */
+header h4 {
+    background-color: #1CD1B0;
+    height: 23px;
+    width: 100%;
+    font-style: normal;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    padding: 0.3rem 1rem;
+}
+/* DCommerce */
+.DCommerce {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 80px;
+}
+    .DCommerce img {
+        padding: 1rem;
+    }
+    header h1 a {text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        color: #ffffff;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+/* BarraNav */
+.barraNav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 40px;
+    width: 100%;
+}
+    .barraNav ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+    }
+        .barraNav ul li a {
+            padding: 1rem;
+            font-size: 1rem;
+            color:#ffffff;
+            text-decoration: none;
+        }
+/* Cards - BATMAN - HARLEY QUINN - BOTÓN + */
+/* Cards */
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    padding: 5rem 10rem;
+}
+    .card {
+        background-color: #F3F3F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        height: 500px;
+        width: 24.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+        .uno{
+            background-image: url(../img/batman-background.png);
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .dos{
+            background-image: url(../img/harleyquinn-background.png);
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .tres {
+            background-image: url(../img/batman-background.png);
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    .card h2 {
+        color:#000000;
+        text-align: center;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+    .card p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: #333333;
+        padding: 1rem;
+        text-align: justify;
+    }
+    .card img {
+        border-radius: 50%;
+        padding: 1.5rem;
+    }
+    .corazon {
+        align-self: flex-start;
+    }
+    .card button{
+        height: 50px;
+        width: 45%;
+        background-color: #00669F;
+        margin:0 0 1rem 0;
+        color:#F3F3F3 ;
+    }
+    .card button a{
+        text-decoration: none;
+        color:#F3F3F3;
+    }
+
+/* BOTÓN + */
+.mas {
+    position:fixed;
+    right: 2rem;
+    top: 50%;
+    background-color: #00669F;
+    border-radius: 50%;
+    padding: 0.9rem;
+}
+/* Footer */
+footer h6{
+    background-color:#00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFF9F9;
+    padding: 0.3rem;
+}
